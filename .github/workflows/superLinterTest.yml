@@ -27,7 +27,7 @@ jobs:
           fetch-depth: 0
 
       - name: HTML-linter
-        uses: htmlhint/HTMLHint@v7.2.0 # x-release-please-version
+        uses: htmlhint/HTMLHint@v1.1.4 # x-release-please-version
         env:
           # To report GitHub Actions status checks
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
